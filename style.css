@@ -1,0 +1,17 @@
+#game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #66BB6A; /* Fallback color */
+    background-image: 
+        linear-gradient(to bottom, #4CAF50 5%, transparent 20%, transparent 20%, #4CAF50 25%, #4CAF50 15%, transparent 20%, transparent 20%,  #4CAF50 25%, #4CAF50 25%, transparent 10%, transparent 10%, #4CAF50 25%, #4CAF50 25%, transparent 10%, transparent 10%, #4CAF50 25%);
+}
+
+canvas{
+    border: 2px solid black;
+    background-color: beige;
+}
+
